@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_27"
+    tools:context=".login">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:hint="username"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/namelog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="10dp"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/paslog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword">
+
+
+        >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <ImageButton
+        android:id="@+id/loginbtn"
+        android:src="@drawable/group_15"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="340dp"
+
+        />
+
+</RelativeLayout>

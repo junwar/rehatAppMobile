@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_profile"
+    tools:context=".profile">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="780dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_41"/>
+
+    <ImageButton
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector"
+        android:layout_marginTop="780dp"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="180dp"/>
+
+    <ImageButton
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_56"
+        android:layout_marginTop="780dp"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="290dp"/>
+
+    <ImageButton
+        android:id="@+id/favoritt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_77"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/beritasaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_78"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_75"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="140dp"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

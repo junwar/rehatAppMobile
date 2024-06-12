@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/group_22"
+    tools:context=".register">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:hint="UserName"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="10dp"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:inputType="textPassword"
+
+
+
+            >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/daftar"
+        android:src="@drawable/group_14"
+        android:layout_width="380dp"
+        android:layout_height="170dp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</RelativeLayout>

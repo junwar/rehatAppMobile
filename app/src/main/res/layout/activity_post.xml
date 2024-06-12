@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_create"
+    tools:context=".post">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="768dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_41" />
+
+    <ImageButton
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector"
+        android:layout_marginTop="770dp"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="180dp" />
+
+    <ImageButton
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_56"
+        android:layout_marginTop="768dp"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="290dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:hint="Isi Judul Kamu Disini...."
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000">
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:hint="Isi Deskripsi Kamu Disini...."
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/isideskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000">
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/unggah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_68"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="5dp"/>
+
+    <ImageButton
+        android:id="@+id/kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_66"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="5dp"/>
+
+    <!-- Tambahkan ImageView untuk menampilkan gambar yang dipilih -->
+    <ImageView
+        android:id="@+id/gambarPreview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:hint="Gambar"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputGambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:visibility="gone">
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

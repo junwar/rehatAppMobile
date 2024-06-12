@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_beranda"
+    tools:context=".beranda">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="768dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/group_41" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Judul"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:layout_marginTop="120dp"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="200dp"/>
+
+    <ImageButton
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector"
+        android:layout_marginTop="770dp"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="180dp" />
+
+    <ImageButton
+        android:id="@+id/profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group_56"
+        android:layout_marginTop="768dp"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="290dp" />
+
+    <!-- Tambahkan RecyclerView untuk menampilkan list post -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:padding="16dp"/>
+</RelativeLayout>
